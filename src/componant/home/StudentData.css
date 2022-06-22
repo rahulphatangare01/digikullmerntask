@@ -1,0 +1,46 @@
+#student {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #student td, #student th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #student tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #student tr:hover {background-color: #ddd;}
+  
+  #student th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    /* background-color: #04AA6D; */
+    background-color: #45a049;
+
+    color: white;
+  }
+  button[type=submit] {
+    width: 9%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button[type=logout]{
+    width: 9%;
+    background-color: hsl(14, 84%, 45%);
+    color: white;
+    padding: 14px 20px;
+    margin-right: 8px ;
+    border: none;
+    float: right;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
